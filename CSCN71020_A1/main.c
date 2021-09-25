@@ -18,10 +18,12 @@ void main() {
 
 	switch (inputNum)
 	{
-	case 1:
+	case 1: 
 		add();
-	case 2:
+		break;
+	case 2: 
 		subtract();
+		break;
 	}
 
 
@@ -56,5 +58,5 @@ void subtract() {
 	printf("Enter the second value:");
 	scanf_s("%lf", &num2);
 	result = num1 - num2;
-	printf("%lf + %lf = %lf\n", num1, num2, result);
+	printf("%lf - %lf = %lf\n", num1, num2, result);
 }
